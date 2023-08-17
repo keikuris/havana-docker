@@ -6,7 +6,7 @@ This is not an end-to-end solution, it is not intended for folks new to Habbo em
 
 ## How to use
 
-1. Copy the following files within the release archive (and www assets) from [Quackster/Havana](https://github.com/Quackster/Havana) to the following directories:
+1. Copy the following files within the release archive (and `havana_www.zip`) from [Quackster/Havana](https://github.com/Quackster/Havana) to the following directories:
     * `havana/work`
       * `lib`
       * `figuredata.xml`
@@ -14,7 +14,7 @@ This is not an end-to-end solution, it is not intended for folks new to Habbo em
       * `Havana-Server.jar`
     * `web/work`
       * `lib`
-      * `tools` (+ www archive)
+      * `tools` (+havana_www)
       * `figuredata.xml`
       * `Havana-Web.jar`
 
