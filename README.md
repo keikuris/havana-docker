@@ -2,7 +2,7 @@
 
 This repo contains additional files to support building and running [Quackster](https://github.com/Quackster)'s Habbo Hotel v31 emulator within Docker containers. To avoid clashing with ongoing development, upstream files are not included (see the **To do** section).
 
-This is not an end-to-end solution, it is not intended for folks new to Habbo emulators or Docker.
+This is not an end-to-end solution, it is not intended for folks new to Habbo emulators or Docker. It is assumed you have [Traefik](https://traefik.io/traefik/) configured with [Let's Encrypt](https://letsencrypt.org/), otherwise you can expose ports directly in `docker-compose.yml`.
 
 ## How to use
 
