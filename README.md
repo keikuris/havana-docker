@@ -27,7 +27,7 @@ This is not an end-to-end solution, it is not intended for folks new to Habbo em
 
 ## To do
 
-* Use environment variables for hostnames, addresses and secrets (`.env`)
+* Use environment variables for hostnames, addresses and secrets (`.env`), replace values in INI files instead of maintaining a copy
 * Improve database health check, currently uses `wordfilter` as assumed last table to be created
 * Automate `settings.sql` import, requires above to avoid a race condition
 * Create build steps for compiling Havana Server and Havana Web from source
