@@ -1,0 +1,9 @@
+UPDATE `settings` SET `setting` = 'email.static.content.path', `value` = 'https://habbo.example.com' WHERE `setting` = 'email.static.content.path' AND `setting` = 'email.static.content.path' COLLATE utf8mb4_bin;
+UPDATE `settings` SET `setting` = 'loader.dcr', `value` = 'https://habbo.example.com/dcr/v31/habbo.dcr?' WHERE `setting` = 'loader.dcr' AND `setting` = 'loader.dcr' COLLATE utf8mb4_bin;
+UPDATE `settings` SET `setting` = 'loader.external.texts', `value` = 'https://habbo.example.com/dcr/v31/gamedata/external_texts.txt?' WHERE `setting` = 'loader.external.texts' AND `setting` = 'loader.external.texts' COLLATE utf8mb4_bin;
+UPDATE `settings` SET `setting` = 'loader.external.variables', `value` = 'https://habbo.example.com/dcr/v31/gamedata/external_variables.txt?' WHERE `setting` = 'loader.external.variables' AND `setting` = 'loader.external.variables' COLLATE utf8mb4_bin;
+UPDATE `settings` SET `setting` = 'loader.game.ip', `value` = 'habbo.example.com' WHERE `setting` = 'loader.game.ip' AND `setting` = 'loader.game.ip' COLLATE utf8mb4_bin;
+UPDATE `settings` SET `setting` = 'loader.mus.ip', `value` = 'habbo.example.com' WHERE `setting` = 'loader.mus.ip' AND `setting` = 'loader.mus.ip' COLLATE utf8mb4_bin;
+UPDATE `settings` SET `setting` = 'site.imaging.endpoint', `value` = 'https://habbo.example.com' WHERE `setting` = 'site.imaging.endpoint' AND `setting` = 'site.imaging.endpoint' COLLATE utf8mb4_bin;
+UPDATE `settings` SET `setting` = 'site.path', `value` = 'https://habbo.example.com' WHERE `setting` = 'site.path' AND `setting` = 'site.path' COLLATE utf8mb4_bin;
+UPDATE `settings` SET `setting` = 'static.content.path', `value` = 'https://habbo.example.com' WHERE `setting` = 'static.content.path' AND `setting` = 'static.content.path' COLLATE utf8mb4_bin;
