@@ -9,13 +9,14 @@ This is not an end-to-end solution, it is not intended for folks new to Habbo em
 1. Copy the following files within the release archive (and www assets) from [Quackster/Havana](https://github.com/Quackster/Havana) to the following directories:
     * `havana/work`
       * `lib`
+      * `figuredata.xml`
       * `havana.sql`
       * `Havana-Server.jar`
     * `web/work`
       * `lib`
       * `tools` (+ www archive)
-      * `Havana-Web.jar`
       * `figuredata.xml`
+      * `Havana-Web.jar`
 
 2. Change all instances of `example.com` to your preferred domain, and replace `255.255.255.255` in `web/work/webserver-config.ini` to the Internet or LAN reachable address of your Havana container
 
